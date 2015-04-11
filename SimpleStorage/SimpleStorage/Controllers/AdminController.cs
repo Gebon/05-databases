@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Web.Http;
@@ -49,6 +50,7 @@ namespace SimpleStorage.Controllers
         [HttpGet]
         public Value InternalGet(string id)
         {
+            Console.WriteLine("Get internal");
             CheckState();
             var result = storage.Get(id);
             if (result == null)
@@ -60,6 +62,7 @@ namespace SimpleStorage.Controllers
         [HttpPut]
         public void InternalPut(string id, [FromBody] Value value)
         {
+            Console.WriteLine("Put internal");
             CheckState();
             storage.Set(id, value);
         }

@@ -6,6 +6,7 @@ namespace SimpleStorage
     {
         int CurrentNodePort { get; }
         int[] OtherShardsPorts { get; }
+        int[] OtherReplicasPorts { get; }
         bool IsMaster { get; }
         IPEndPoint MasterEndpoint { get; }
     }

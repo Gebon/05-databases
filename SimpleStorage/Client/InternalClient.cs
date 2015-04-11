@@ -1,3 +1,4 @@
+using System;
 using System.Net.Http;
 using Domain;
 
@@ -14,6 +15,7 @@ namespace Client
 
         public void Put(string id, Value value)
         {
+            Console.WriteLine("In internal client");
             var putUri = endpoint + "api/admin/internalPut/" + id;
             using (var client = new HttpClient())
             using (var response = client.PutAsJsonAsync(putUri, value).Result)

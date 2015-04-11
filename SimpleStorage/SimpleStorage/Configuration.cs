@@ -13,6 +13,8 @@ namespace SimpleStorage
                 MasterEndpoint = topology.Replicas.First();
         }
 
+        public int[] OtherReplicasPorts { get; set; }
+
         public bool IsMaster { get; private set; }
         public IPEndPoint MasterEndpoint { get; private set; }
 

@@ -25,7 +25,8 @@ namespace SimpleStorage
                 var configuration = new Configuration(topology)
                 {
                     CurrentNodePort = options.Port,
-                    OtherShardsPorts = options.ShardsPorts
+                    OtherShardsPorts = options.ShardsPorts,
+                    OtherReplicasPorts = options.ReplicasPorts
                 };
                 container.Configure(c => c.For<IConfiguration>().Use(configuration));
 

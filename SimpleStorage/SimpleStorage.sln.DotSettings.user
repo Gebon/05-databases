@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=04BF1A744D0842648E634A0742579848/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=04BF1A744D0842648E634A0742579848/GroupingIndex/@EntryValue">4</s:Int64>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=04BF1A744D0842648E634A0742579848/Name/@EntryValue">Get_ManyTimes_ShouldFaultTolerant</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=04BF1A744D0842648E634A0742579848/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;e Id="SimpleStorage.Tests.ReplicationAndConsistency.Task2Tests.Get_ManyTimes_ShouldFaultTolerant" Project="F541710A-D388-465A-B4D0-7788B9E340D9" Provider="nUnit" /&gt;&lt;e Id="SimpleStorage.Tests.ReplicationAndConsistency.Task2Tests" Project="F541710A-D388-465A-B4D0-7788B9E340D9" Provider="nUnit" /&gt;&lt;e Id="SimpleStorage.Tests.ReplicationAndConsistency.Task2Tests.Put_ManyTimes_ShouldFaultTolerant" Project="F541710A-D388-465A-B4D0-7788B9E340D9" Provider="nUnit" /&gt;&lt;/Session&gt;</s:String>
+	
+	
+	
+	</wpf:ResourceDictionary>
